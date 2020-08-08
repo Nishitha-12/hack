@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530667499274",
+    "firebase_url": "https://hac-bafe5.firebaseio.com",
+    "project_id": "hac-bafe5",
+    "storage_bucket": "hac-bafe5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530667499274:android:4174370c1c8322a65b94f3",
+        "android_client_info": {
+          "package_name": "com.example.hac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530667499274-bgra6849saij5hcaop107eo1qf783d4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hac",
+            "certificate_hash": "4965387180befd50143be4666e1f72a14dbf1176"
+          }
+        },
+        {
+          "client_id": "530667499274-m3tq9m1l0sreipq8gdvp33uf2k4k9p4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDftEP1Xt5Jms3ybc1GZiSrVa61ra7-J30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530667499274-m3tq9m1l0sreipq8gdvp33uf2k4k9p4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
