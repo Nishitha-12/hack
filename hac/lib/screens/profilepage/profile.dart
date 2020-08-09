@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:hac/models/user.dart';
 import 'package:hac/screens/authenticate/input_decoration.dart';
-import 'package:hac/screens/home/sample.dart';
+import 'package:hac/screens/home/home.dart';
 import 'package:hac/services/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';

@@ -32,11 +32,20 @@ class _SideDrawerState extends State<SideDrawer> {
             new UserAccountsDrawerHeader(
               accountName: Text(
                 widget.name,
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(
+                    color: Colors.black,
+                    fontFamily: 'Lora',
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.bold),
               ),
               accountEmail: Text(
                 widget.phoneno,
-                style: TextStyle(color: Colors.black),
+                style: TextStyle(
+                  color: Colors.black,
+                  fontFamily: 'Lora',
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
               currentAccountPicture: GestureDetector(
                 child: CircleAvatar(
@@ -50,13 +59,24 @@ class _SideDrawerState extends State<SideDrawer> {
               ),
               decoration: BoxDecoration(
                 color: Color.fromRGBO(87, 200, 159, 1),
+                image: DecorationImage(
+                  fit: BoxFit.fill,
+                  image: AssetImage('assets/images/pic13.png'),
+                ),
               ),
             ),
 
 // ================= Drawer Options ======================
 
             ListTile(
-              title: Text("Profile"),
+              title: Text(
+                "Profile",
+                style: TextStyle(
+                  fontFamily: 'Lora',
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               trailing: Icon(Icons.person),
               onTap: () {
                 print('Inside item1');

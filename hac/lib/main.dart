@@ -8,7 +8,7 @@ import 'package:hac/screens/wrapper.dart';
 import 'package:hac/services/auth.dart';
 import 'package:provider/provider.dart';
 
-import 'package:hac/screens/home/sample.dart';
+import 'package:hac/screens/home/home.dart';
 import 'package:hac/screens/profilepage/profile.dart';
 
 void main() {

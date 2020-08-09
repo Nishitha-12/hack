@@ -27,6 +27,7 @@ class _InputFormDecoState extends State<InputFormDeco> {
   Widget build(BuildContext context) {
     return TextFormField(
       // key: widget.key,
+
       keyboardType: widget.keyboardType,
       maxLines: widget.maxLines,
       controller: widget.controller,
@@ -43,6 +44,7 @@ class _InputFormDecoState extends State<InputFormDeco> {
         ),
         filled: true,
         fillColor: Colors.grey[100],
+        //prefixIcon: Icon(Icons.phone),
         hintText: widget.hintText,
         contentPadding:
             new EdgeInsets.symmetric(vertical: 13.0, horizontal: 20.0),

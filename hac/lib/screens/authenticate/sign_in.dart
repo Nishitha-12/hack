@@ -37,6 +37,7 @@ class SignIn extends StatelessWidget {
                 // height: 350,
                 // width: double.infinity,
                 decoration: BoxDecoration(
+                  //color: Colors.black,
                   gradient: LinearGradient(
                       begin: Alignment.topRight,
                       end: Alignment.bottomLeft,

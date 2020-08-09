@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hac/models/user.dart';
-import 'package:hac/screens/home/sample.dart';
+import 'package:hac/screens/home/home.dart';
 import 'package:hac/screens/wrapper.dart';
 import 'package:hac/services/database.dart';
 
